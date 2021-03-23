@@ -1,0 +1,11 @@
+2019-10-22T06:38:37+00:00 CRITICAL Uncaught Error: Cannot access empty property in E:\Openserv\OSPanel\domains\portfolio\wp-content\themes\themify-ultra\themify\themify-wp-filters.php:569
+Stack trace:
+#0 E:\Openserv\OSPanel\domains\portfolio\wp-includes\class-wp-hook.php(286): themify_hide_themes(Array, 'https://api.wor...')
+#1 E:\Openserv\OSPanel\domains\portfolio\wp-includes\plugin.php(208): WP_Hook->apply_filters(Array, Array)
+#2 E:\Openserv\OSPanel\domains\portfolio\wp-includes\class-http.php(232): apply_filters('http_request_ar...', Array, 'https://api.wor...')
+#3 E:\Openserv\OSPanel\domains\portfolio\wp-includes\class-http.php(596): WP_Http->request('https://api.wor...', Array)
+#4 E:\Openserv\OSPanel\domains\portfolio\wp-includes\http.php(187): WP_Http->post('https://api.wor...', Array)
+#5 E:\Openserv\OSPanel\domains\portfolio\wp-includes\update.php(561): wp_remote_post('https://api.wor...', Array)
+#6 E:\Openserv\OSPanel\domains\portfolio\wp-includes\class-wp-hook.php(284): wp_update_themes()
+#7 E:\Openserv\OSPanel\domains\portfolio\wp-i in E:\Openserv\OSPanel\domains\portfolio\wp-content\themes\themify-ultra\themify\themify-wp-filters.php on line 569
+
